@@ -17,7 +17,7 @@ boolean flag=true;
                 {
                     if(table[i] != i+1)
                     {
-                        flag = false;//將對比好整個陣列後放入flag必選重複輸出
+                        flag = false;//將對比好整個陣列後放入flag必免重複輸出
                         break;
                     }
                 }
